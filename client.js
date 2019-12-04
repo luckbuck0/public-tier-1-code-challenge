@@ -1,28 +1,33 @@
 /*
-1. Start with the number 42 and set that equal to a variable named 'myNumber'
+1. Start with the number 29 and set that equal to a variable named 'highScore';
 
-2. Create condition logic to check if the myNumber is greater or equal to 53
-2-1. If true, add 42 to 'myNumber'
-2-2. If false, subtract 13 from 'myNumber'
+2. Make a new empty array called myScrabbleTiles.
 
-3. Create a string that is set to 11, add it to 'myNumber'
+3. Put these 7 tile objects in myScrabbleTiles
+```
+  { tile: 'N', score: 1 }
+  { tile: 'K', score: 5 }
+  { tile: 'Z', score: 10 }
+  { tile: 'X', score: 8 }
+  { tile: 'D', score: 2 }
+  { tile: 'A', score: 1 }
+  { tile: 'E', score: 1 }
+```
 
-4. Create an array called 'numberArray'. Loop through 'myNumber' (now a string!), and using charAt(), set numberArray[i] to each value from 'numberArray'
+4. 'Discard' the last tile in the myScrabbleTiles, and then 'draw' a new tile (add it to the array)
+```
+  { tile: 'F', score : 4 }
+```
 
-5. Remove the first and last values from 'numberArray'
+5. Write a function that returns the sum of all the scores of all the tiles in myScrabbleTiles
 
-6. Create a new variable. Loop **backwards** through 'numberArray' and concatenate each value from the array into the new variable (backwards, remember!)
+6. Check whether or not your current scrabble hand is higher than the highScore.
+6-1 If your hand is higher, change highScore to the new high score.
 
-7. parseInt() both the 'myNumber' and the new variable created in Step 6, ensure that both 'myNumber' and the new variable are set to these new parsed values
+7. Using jQuery, Append to the DOM the highScore value.
 
-8. Add 'myNumber' and the new variable created in Step 6 together and store them in 'myNumber'
+8. Using jQuery, Append to the DOM myScrabbleTiles as an unordered list
 
-9. If the new value of 'myNumber' is less than 60, set 'myNumber' equal to 14. If not, check to see if it is equal to 2930, if it is, set 'myNumber' equal to 27. If neither of these are true, set the value to 2.
 
-10. Create a while loop that runs 10 times and increments 'myNumber' by 1 each time through the loop.
-
-11. Create a function that accepts an argument 'val'. The function should convert 'val' to a String, then drop the first character off the String, but only if there
-is more than 1 character in the String. Return 'val' and set the variable 'myNumber' to the returned value.
-
-12. Your answer should be a String value that equals 7. Is that what you got?
 */
+
