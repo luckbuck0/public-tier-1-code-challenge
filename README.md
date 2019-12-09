@@ -1,8 +1,8 @@
-# JS Practice: Loops and Arrays
+# Tier 1 Code Challemge
 
 ## Objective
 
-Practice translating written instructions into JavaScript code. Focuses on variables, loops, arrays, and functions.
+Cumulative assesment of Tier 1 content.
 
 ## Instructions
 
