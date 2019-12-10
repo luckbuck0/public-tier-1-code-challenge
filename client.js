@@ -6,7 +6,7 @@ You’ve been given an index.html file and a starter js file, and jQuery.
 */
 
 $(document).ready(function() {
-  console.log('Step 0 complete! jquery and client.js loaded!);
+  console.log('Step 0 complete! jquery and client.js loaded!');
               
   // Write your code here!
 
