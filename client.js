@@ -16,19 +16,19 @@ $(document).ready(function() {
   
   // 3. Put these 7 tile objects into myScrabbleTiles:
   /*
-    { tile: ‘N’, score: 1 }
-    { tile: ‘K’, score: 5 }
-    { tile: ‘Z’, score: 10 }
-    { tile: ‘X’, score: 8 }
-    { tile: ‘D’, score: 2 }
-    { tile: ‘A’, score: 1 }
+    { tile: 'N', score: 1 }
+    { tile: 'K', score: 5 }
+    { tile: 'Z', score: 10 }
+    { tile: 'X', score: 8 }
+    { tile: 'D', score: 2 }
+    { tile: 'A', score: 1 }
   */
   
   // 4. Remove the last tile from myScrabbleTiles.
   
   // 5. Add the following new tile to myScrabbleTiles:
   /*
-    { tile: ‘F’, score : 4 }
+    { tile: 'F', score : 4 }
   */
   
   // 6. Write a function that takes in an array. The function will use a for-loop and returns the sum of all the scores in the given array.
