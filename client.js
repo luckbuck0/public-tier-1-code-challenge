@@ -4,7 +4,6 @@ You’ve been given an index.html file and a starter js file, and jQuery.
 0. Source this file and the jquery.js files into the index.html file. You should see a console log when this is done correctly.
   -- There is no JS to write for this step.
 */
-
 $(document).ready(function() {
   console.log('Step 0 complete! jquery and client.js loaded!');
               
@@ -43,3 +42,4 @@ $(document).ready(function() {
   // 10. Using jQuery, Append to the DOM myScrabbleTiles as an unordered list
 
 });
+// DO NOT WRITE CODE BEYOND HERE 
