@@ -13,7 +13,7 @@ $(document).ready(function() {
   
   // 2. Make a new empty array called myScrabbleTiles.
   
-  // 3. Put these 7 tile objects into myScrabbleTiles:
+  // 3. Put these 6 tile objects into myScrabbleTiles:
   /*
     { tile: 'N', score: 1 }
     { tile: 'K', score: 5 }
