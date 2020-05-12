@@ -1,4 +1,4 @@
-# Tier 1 Code Challemge
+# Tier 1 Code Challenge
 
 ## Objective
 
