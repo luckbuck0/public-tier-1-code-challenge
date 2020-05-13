@@ -37,6 +37,9 @@ $(document).ready(function() {
   // 8. Check whether or not your score is higher than the highScore.
     // 8-1 If your score is higher, change highScore to the new high score.
   
+  
+// STRETCH GOALS!!! 
+  
   // 9. Using jQuery, Append to the DOM the highScore value.
   
   // 10. Using jQuery, Append to the DOM myScrabbleTiles as an unordered list
