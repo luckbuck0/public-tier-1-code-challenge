@@ -2,7 +2,7 @@
 
 ## Objective
 
-Cumulative assesment of Tier 1 content.
+Cumulative assessment of Tier 1 content.
 
 ## Instructions
 
