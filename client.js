@@ -32,7 +32,7 @@ $(document).ready(function() {
   
   // 6. Write a function that takes in an array. The function will use a for-loop and returns the sum of all the scores in the given array.
   
-  // 7. Use the function above to get the total score for myScrabbleTiles.
+  // 7. Use the function above to get the total score for myScrabbleTiles and assign the value to a variable called "myScore".
   
   // 8. Check whether or not your score is higher than the highScore.
     // 8-1 If your score is higher, change highScore to the new high score.
