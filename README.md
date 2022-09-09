@@ -2,7 +2,7 @@
 
 ## Objective
 
-This is a cumulative assessment of Tier 1 content. Your goal is identify specific things that are challenging for you. These can help you form a plan for this week's review.
+This is a cumulative assessment of Tier 1 content. Your goal is to identify specific things that are challenging for you. These can help you form a plan for this week's review.
 
 *Think of this as preparation for class!*
 
