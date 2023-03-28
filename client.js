@@ -13,6 +13,7 @@ console.log('Step 0 complete! client.js loaded!');
 let highScore = 29
 // 2. Make a new empty array called myScrabbleTiles.
 let myScrabbleTiles = [];
+
 // 3. Put these 6 tile objects into myScrabbleTiles:
 /*
   { tile: 'N', score: 1 }
@@ -33,34 +34,3 @@ let tiles = [
 myScrabbleTiles.push(tiles)
 console.log(myScrabbleTiles[0][1])
 
-// 4. Remove the last tile from myScrabbleTiles.
-
-let removed=myScrabbleTiles[0].pop()
-console.log(removed)
-// 5. Add the following new tile to myScrabbleTiles:
-/*
-  { tile: 'F', score : 4 }
-*/
-let added= myScrabbleTiles[0].push({tile: 'F',score:4})
-console.log(myScrabbleTiles[0])
-// 6. Complete this function. It needs to be given an array of tile objects. The function will use a for-loop and return the sum of all the scores in the given array.
-function sumTiles(anArray) {
-  let value=0
-for (let sum of anArray){
-  for (let i=0; i<sum.length; i ++){
-      value+=sum[i].score
-    }
-  }
-  return value
-}
-
-console.log(sumTiles(myScrabbleTiles)); 
-
-// 7. Use the function above to get the total score for myScrabbleTiles and assign the value to a variable called "myScore".
-let myScore= sumTiles(myScrabbleTiles)
-
-// 8. Check whether or not your score is higher than the highScore.
-// 8-1 If your score is higher, change highScore to the new high score.
-
-
-// DONE!
