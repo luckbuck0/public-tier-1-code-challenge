@@ -34,3 +34,13 @@ let tiles = [
 myScrabbleTiles.push(tiles)
 console.log(myScrabbleTiles[0][1])
 
+// 4. Remove the last tile from myScrabbleTiles.
+
+let removed = myScrabbleTiles[0].pop()
+console.log(removed)
+// 5. Add the following new tile to myScrabbleTiles:
+/*
+  { tile: 'F', score : 4 }
+*/
+let added = myScrabbleTiles[0].push({ tile: 'F', score: 4 })
+console.log(myScrabbleTiles[0])
